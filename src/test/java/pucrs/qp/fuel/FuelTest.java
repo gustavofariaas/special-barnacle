@@ -1,4 +1,4 @@
-package pucrs.qp.triangle;
+package pucrs.qp.fuel;
 
 import static org.junit.Assert.assertEquals;
 
