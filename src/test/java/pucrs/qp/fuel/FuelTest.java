@@ -26,4 +26,24 @@ public class FuelTest {
         assertNotSame(expected, result);
     }
 
+    @Test
+    public void calculateFuel_Test3(){
+        int s = 2;
+        int a = 92;
+        double expected = 15.333;
+        double result = Main.calculateFuel(s, a);
+        result = Math.floor(result * 1000) / 1000;
+        assertNotSame(expected, result);
+    }
+
+    @Test
+    public void calculateFuel_Test4(){
+        int s = 22;
+        int a = 67;
+        double expected = 122.833;
+        double result = Main.calculateFuel(s, a);
+        result = Math.floor(result * 1000) / 1000;
+        assertNotSame(expected, result);
+    }
+
 }
